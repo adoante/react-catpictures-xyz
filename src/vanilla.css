@@ -185,3 +185,18 @@ sup { font-size: 80%; vertical-align: top; }
         --tertiary-color: #2d2d2d;
     }
 }
+
+button {
+    color: black;
+    font-size: large;
+    background-color: var(--link-color);
+    border-style: hidden;
+    border-radius: 5px;
+    height: 1cm;
+    width: 4cm;
+    cursor:pointer;
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px hsla(39, 100%, 50%, 0.3);
+}
