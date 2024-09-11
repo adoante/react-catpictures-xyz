@@ -20,7 +20,7 @@ function GetCatPic() {
 
 	return (
 		<>
-		<img id = "cat" src=" "></img>
+		<img id="cat" src=" "></img>
 		<button onClick={() => getFetch("cat")}>Click for More!</button>
 		</>
 	);
